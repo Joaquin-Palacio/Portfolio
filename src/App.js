@@ -9,7 +9,7 @@ import Contact from "./components/Contact";
 
 function App() {
   return (
-    <div>
+    <div className="bg-gradient-to-b from-black via-black to-gray-800 text-white">
       <NavBar />
       <Home />
       <About />
