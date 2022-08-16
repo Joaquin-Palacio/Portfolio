@@ -11,7 +11,7 @@ const Home = () => {
             Soy Full Stack Developer
           </h2>
           <p className="text-gray-400 py-4 max-w-md">
-            Bienvenidos a mi portfolio!! <br /> Me llamo Joaquín. Soy graduado de Henry, me gusta mucho el mundo IT y estoy en busca de mi primera experiencia como Full Stack Developer o Frontend Developer.
+            Bienvenidos a mi portfolio!! <br /> Me llamo Joaquín. Me gusta mucho el mundo IT y estoy en busca de mi primera experiencia como Full Stack Developer o Frontend Developer.
           </p>
           <div>
             <Link
