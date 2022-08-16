@@ -2,29 +2,26 @@ import React from "react";
 
 const About = () => {
   return (
-    <div name="about" className="w-full pt-24">
+    <div name="sobre mi" className="w-full pt-24">
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-4">
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
-            About
+            Sobre mí
           </p>
         </div>
         <p className="text-xl mt-20">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident
-          rerum eos dicta hic exercitationem nobis praesentium delectus ullam.
-          Sit nemo, quam consectetur nisi id iusto commodi quas eveniet
-          blanditiis animi reiciendis. Doloremque eum sequi vel! Voluptatum
-          maxime rerum hic ex, suscipit quas? Facere, repellat saepe? Est saepe
-          fugit nemo officiis!
+            Hola, soy Joaquin, tengo 20 años. Me considero responsable, comunicativo,
+            también disfruto del trabajo en equipo. Soy graduado del bootcamp de Henry.
+            Mi objetivo es conseguir mi primera experiencia laboral como Full Stack Developer
+            o Frontend Developer. Actualmente me encuentro realizando algunos proyectos, cursos, etc
+            para seguir puliendo y ampliando mis conocimientos.  
         </p>
         <br />
         <p className="text-xl">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda
-          eum dolorum vel quas ducimus numquam consequatur ea delectus amet
-          iusto, laborum eveniet odio aliquam debitis libero natus a veniam
-          sequi, dolores quos accusamus? Tempore cum, magni sapiente qui ut
-          voluptatem adipisci rem praesentium quasi nulla reiciendis voluptate
-          commodi pariatur laboriosam!
+            Por otra parte, juego y me apasiona el básquet desde chico, en mis tiempos libres veo
+            alguna película o serie 🎬, también me gustan muchos los videojuegos 🎮. Veo mucho fútbol ⚽ y
+            no me pierdo ni un partido de River Plate ⚪🔴⚪. Todo el día, todos los dias estoy escuchando
+            música 🎧.
         </p>
       </div>
     </div>

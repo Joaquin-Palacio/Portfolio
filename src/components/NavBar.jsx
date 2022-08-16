@@ -8,31 +8,30 @@ const NavBar = () => {
   const links = [
     {
       id: 1,
-      link: "home",
+      link: "inicio",
     },
     {
       id: 2,
-      link: "about",
+      link: "sobre mi",
     },
     {
       id: 3,
-      link: "portfolio",
+      link: "proyectos",
     },
     {
       id: 4,
-      link: "experience",
+      link: "tecnologías",
     },
     {
       id: 5,
-      link: "contact",
+      link: "contacto",
     },
   ];
 
   return (
     <div className="flex justify-between items-center w-full h-20 px-4 text-white fixed bg-black">
       <div>
-        <h1 className="text-5xl ml-2">Joaquin Palacio</h1>
-        {/* font-signature */}
+        <h1 className="text-5xl ml-2 font-signature">Portfolio</h1>
       </div>
       <ul className="hidden md:flex">
         {links.map(({ id, link }) => (

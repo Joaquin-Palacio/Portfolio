@@ -4,14 +4,14 @@ import { Link } from "react-scroll";
 
 const Home = () => {
   return (
-    <div name="home" className="h-screen w-full">
+    <div name="inicio" className="h-screen w-full">
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full">
           <h2 className="text-4xl sm:text-7xl font-bold">
-            I'm Full Stack Developer
+            Soy Full Stack Developer
           </h2>
-          <p className="text-gray-500 py-4 max-w-md">
-           Hola !! Soy Joaquin, tengo 20 años. 
+          <p className="text-gray-400 py-4 max-w-md">
+            Bienvenidos a mi portfolio!! <br /> Me llamo Joaquín. Soy graduado de Henry, me gusta mucho el mundo IT y estoy en busca de mi primera experiencia como Full Stack Developer o Frontend Developer.
           </p>
           <div>
             <Link
