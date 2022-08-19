@@ -13,7 +13,7 @@ const Contact = () => {
         </div>
         <div className="justify-center items-center flex">
           <form 
-            action="https://getform.io/f/f38c2658-2348-46f6-8c24-e84ed0d2159b" 
+            action="https://getform.io/f/1aabf4d3-936b-497b-a10e-b9ce4ea94ccd" 
             method="POST"
             className="flex flex-col w-full md:w-1/2"
           >
@@ -21,18 +21,21 @@ const Contact = () => {
               type="text"
               name="name"
               placeholder="Nombre"
+              required={true}
               className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
             />
             <input
               type="text"
               name="email"
               placeholder="Email"
+              required={true}
               className="my-4 p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
             />
             <textarea
               name="message"
               placeholder="Mensaje"
               rows="10"
+              required={true}
               className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
             ></textarea>
 
