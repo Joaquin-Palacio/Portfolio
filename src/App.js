@@ -5,7 +5,7 @@ import NavBar from "./components/NavBar";
 import SocialLinks from "./components/SocialLinks";
 import Experience  from "./components/Experience";
 import Contact from "./components/Contact";
-import LinksMobile from "./components/LinksMobile";
+
 
 
 function App() {
@@ -16,7 +16,6 @@ function App() {
       <About />
       <Portfolio /> 
       <Experience />
-      <LinksMobile />
       <Contact />
       <SocialLinks />
     </div>

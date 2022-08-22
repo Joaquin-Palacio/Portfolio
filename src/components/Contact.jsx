@@ -1,4 +1,5 @@
 import React from "react";
+import LinksMobile from "./LinksMobile";
 
 const Contact = () => {
   return (
@@ -9,6 +10,7 @@ const Contact = () => {
       <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto w-full h-full">
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">Contacto</p>
+            <LinksMobile />
           <p className="py-6">Gracias por ver mi página. No dudes en comunicarte conmigo !!</p>
         </div>
         <div className="justify-center items-center flex">

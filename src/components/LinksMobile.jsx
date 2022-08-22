@@ -8,7 +8,7 @@ const LinksMobile = () => {
       id: 1,
       child: (
         <>
-         <FaLinkedin size={30} />
+          <FaLinkedin size={30} />
         </>
       ),
       href: "https://www.linkedin.com/in/joaquin-palacio/",
@@ -35,12 +35,12 @@ const LinksMobile = () => {
   ];
 
   return (
-    <div className="flex mt-20 md:hidden ">
+    <div className="flex mt-4 md:hidden">
       <ul className="flex m-4 w-full flex-wrap md:hidden">
         {links.map(({ id, href, child, download }) => (
           <li
             key={id}
-            className="flex justify-between items-center w-26 m-4 h-14 px-4 rounded-lg bg-gradient-to-r from-cyan-600 to-blue-700 md:hidden"
+            className="flex items-center h-10 w-34 px-2 m-2 rounded-lg bg-gradient-to-r from-cyan-600 to-blue-700 md:hidden"
           >
             <a
               href={href}
