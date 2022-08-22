@@ -50,7 +50,7 @@ const LinksMobile = () => {
         {links.map(({ id, href, child, download }) => (
           <li
             key={id}
-            className="flex justify-between items-center w-40 h-14 px-4 mx-10 my-2 rounded-lg bg-gradient-to-r from-cyan-600 to-blue-700 md:hidden"
+            className="flex justify-between items-center w-40 h-14 px-4 mx-28 my-2 rounded-lg bg-gradient-to-r from-cyan-600 to-blue-700 md:hidden"
           >
             <a
               href={href}
