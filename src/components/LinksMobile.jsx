@@ -1,6 +1,5 @@
 import React from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 
 const LinksMobile = () => {
@@ -9,7 +8,7 @@ const LinksMobile = () => {
       id: 1,
       child: (
         <>
-          LinkedIn <FaLinkedin size={30} />
+         <FaLinkedin size={30} />
         </>
       ),
       href: "https://www.linkedin.com/in/joaquin-palacio/",
@@ -18,7 +17,7 @@ const LinksMobile = () => {
       id: 2,
       child: (
         <>
-          GitHub <FaGithub size={30} />
+          <FaGithub size={30} />
         </>
       ),
       href: "https://github.com/Joaquin-Palacio",
@@ -27,16 +26,7 @@ const LinksMobile = () => {
       id: 3,
       child: (
         <>
-          Enviar Mail <HiOutlineMail size={30} />
-        </>
-      ),
-      href: "mailto:joaquinpalacio2311@gmail.com",
-    },
-    {
-      id: 4,
-      child: (
-        <>
-          Descargar CV <BsFillPersonLinesFill size={30} />
+          Resume <BsFillPersonLinesFill size={30} />
         </>
       ),
       href: "/CV-Joaquin Palacio.pdf",
@@ -45,12 +35,12 @@ const LinksMobile = () => {
   ];
 
   return (
-    <div className="flex mt-12 mx-auto md:hidden ">
-      <ul>
+    <div className="flex mt-20 md:hidden ">
+      <ul className="flex m-4 w-full flex-wrap md:hidden">
         {links.map(({ id, href, child, download }) => (
           <li
             key={id}
-            className="flex justify-between items-center w-40 h-14 px-4 mx-28 my-2 rounded-lg bg-gradient-to-r from-cyan-600 to-blue-700 md:hidden"
+            className="flex justify-between items-center w-26 m-4 h-14 px-4 rounded-lg bg-gradient-to-r from-cyan-600 to-blue-700 md:hidden"
           >
             <a
               href={href}
