@@ -1,13 +1,21 @@
 import React from "react";
 import HenryGames from "../assets/HenryGames.png";
-/* import LolixGames from "../assets/LolixGames.png"; */
+import LolixGames from "../assets/LolixGames.png";
 
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
       src: HenryGames,
+      hrefDemo: "https://henry-games-pg.vercel.app/",
+      hrefGit: "https://github.com/nicolasgonzalez98/HenryGames-PG"
     },
+    {
+      id: 2,
+      src: LolixGames,
+      hrefDemo: "https://cdn5.vectorstock.com/i/1000x1000/91/39/sorry-page-not-found-404-error-emoticon-vector-23939139.jpg",
+      hrefGit: "https://github.com/Joaquin-Palacio/PI-Videogames"
+    }
   ];
 
 /*   const handleOnClick = () => ({
@@ -25,14 +33,14 @@ const Portfolio = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolios.map(({ id, src }) => (
+          {portfolios.map(({ id, src, hrefDemo, hrefGit }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img src={src} alt="" className="rounded-lg" />
               <div className="flex items-center justify-center">
-                <a href="https://henry-games-pg.vercel.app/" target="_blank" rel="noreferrer" className="flex items-center justify-center w-1/2 px-6 py-3 m-4 duration-200 hover:scale-110 hover:bg-gradient-to-r from-cyan-600 to-blue-700 rounded-md ">
+                <a href={hrefDemo} target="_blank" rel="noreferrer" className="flex items-center justify-center w-1/2 px-6 py-3 m-4 duration-200 hover:scale-110 hover:bg-gradient-to-r from-cyan-600 to-blue-700 rounded-md ">
                   Demo
                 </a>
-                <a href="https://github.com/nicolasgonzalez98/HenryGames-PG" target="_blank" rel="noreferrer" className="flex items-center justify-center w-1/2 px-6 py-3 m-4 duration-200 hover:scale-110 hover:bg-gradient-to-r from-cyan-600 to-blue-700 rounded-md ">
+                <a href={hrefGit} target="_blank" rel="noreferrer" className="flex items-center justify-center w-1/2 px-6 py-3 m-4 duration-200 hover:scale-110 hover:bg-gradient-to-r from-cyan-600 to-blue-700 rounded-md ">
                   GitHub
                 </a>
               </div>
