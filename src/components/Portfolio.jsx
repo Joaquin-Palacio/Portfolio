@@ -1,6 +1,7 @@
 import React from "react";
 import HenryGames from "../assets/HenryGames.png";
 import LolixGames from "../assets/LolixGames.png";
+import WeatherApp from "../assets/WeatherApp.png";
 
 const Portfolio = () => {
   const portfolios = [
@@ -15,12 +16,14 @@ const Portfolio = () => {
       src: LolixGames,
       hrefDemo: "https://st2.depositphotos.com/1051996/10200/v/600/depositphotos_102002680-stock-illustration-404-page-not-found-error.jpg",
       hrefGit: "https://github.com/Joaquin-Palacio/PI-Videogames"
+    },
+    {
+      id: 3,
+      src: WeatherApp,
+      hrefDemo: "https://weatherapp-joaquin.netlify.app/",
+      hrefGit: "https://github.com/Joaquin-Palacio/Weather-App"
     }
   ];
-
-/*   const handleOnClick = () => ({
-
-  }); */
 
   return (
     <div name="proyectos" className="w-full mt-32 pt-24">
