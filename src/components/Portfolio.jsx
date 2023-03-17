@@ -3,6 +3,7 @@ import HenryGames from '../assets/HenryGames.png';
 import LolixGames from '../assets/LolixGames.png';
 import WeatherApp from '../assets/WeatherApp.png';
 import Calculadora from '../assets/Calculadora.png';
+import CounterClicks from '../assets/CounterClicks.png';
 
 const Portfolio = () => {
   const portfolios = [
@@ -30,6 +31,12 @@ const Portfolio = () => {
       src: Calculadora,
       hrefDemo: 'https://calculator-app-4acu.vercel.app/',
       hrefGit: 'https://github.com/Joaquin-Palacio/Calculator-App',
+    },
+    {
+      id: 5,
+      src: CounterClicks,
+      hrefDemo: 'https://counter-clicks.netlify.app/',
+      hrefGit: 'https://github.com/Joaquin-Palacio/Counter-Clicks',
     },
   ];
 
