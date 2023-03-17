@@ -22,6 +22,12 @@ const Portfolio = () => {
       src: WeatherApp,
       hrefDemo: "https://weatherapp-joaquin.netlify.app/",
       hrefGit: "https://github.com/Joaquin-Palacio/Weather-App"
+    },
+    {
+      id: 4,
+      src: Calculadora,
+      hrefDemo: "https://calculator-app-4acu.vercel.app/",
+      hrefGit: "https://github.com/Joaquin-Palacio/Calculator-App"
     }
   ];
 
