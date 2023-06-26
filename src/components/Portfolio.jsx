@@ -2,6 +2,7 @@ import React from 'react';
 import HenryGames from '../assets/HenryGames.png';
 import LolixGames from '../assets/LolixGames.png';
 import WeatherApp from '../assets/WeatherApp.png';
+import TiendaTech from '../assets/TiendaTech.png';
 import Calculadora from '../assets/Calculadora.png';
 import CounterClicks from '../assets/CounterClicks.png';
 
@@ -16,8 +17,7 @@ const Portfolio = () => {
     {
       id: 2,
       src: LolixGames,
-      hrefDemo:
-        'https://st2.depositphotos.com/1051996/10200/v/600/depositphotos_102002680-stock-illustration-404-page-not-found-error.jpg',
+      hrefDemo: 'https://st2.depositphotos.com/1051996/10200/v/600/depositphotos_102002680-stock-illustration-404-page-not-found-error.jpg',
       hrefGit: 'https://github.com/Joaquin-Palacio/PI-Videogames',
     },
     {
@@ -28,12 +28,18 @@ const Portfolio = () => {
     },
     {
       id: 4,
+      src: TiendaTech,
+      hrefDemo: 'https://st2.depositphotos.com/1051996/10200/v/600/depositphotos_102002680-stock-illustration-404-page-not-found-error.jpg',
+      hrefGit: 'https://github.com/Joaquin-Palacio/Tienda-Tech',
+    },
+    {
+      id: 5,
       src: Calculadora,
       hrefDemo: 'https://calculator-app-4acu.vercel.app/',
       hrefGit: 'https://github.com/Joaquin-Palacio/Calculator-App',
     },
     {
-      id: 5,
+      id: 6,
       src: CounterClicks,
       hrefDemo: 'https://counter-clicks.netlify.app/',
       hrefGit: 'https://github.com/Joaquin-Palacio/Counter-Clicks',
