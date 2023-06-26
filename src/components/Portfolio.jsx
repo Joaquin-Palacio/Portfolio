@@ -3,7 +3,8 @@ import HenryGames from '../assets/HenryGames.png';
 import LolixGames from '../assets/LolixGames.png';
 import WeatherApp from '../assets/WeatherApp.png';
 import TiendaTech from '../assets/TiendaTech.png';
-import Calculadora from '../assets/Calculadora.png';
+import GaleriaMessi from '../assets/GaleriaMessi.png';
+/* import Calculadora from '../assets/Calculadora.png'; */
 import CounterClicks from '../assets/CounterClicks.png';
 
 const Portfolio = () => {
@@ -34,10 +35,16 @@ const Portfolio = () => {
     },
     {
       id: 5,
+      src: GaleriaMessi,
+      hrefDemo: 'https://lionel-messi-gallery.netlify.app/',
+      hrefGit: 'https://github.com/Joaquin-Palacio/Galeria-Messi'
+    },
+ /*    {
+      id: 6,
       src: Calculadora,
       hrefDemo: 'https://calculator-app-4acu.vercel.app/',
       hrefGit: 'https://github.com/Joaquin-Palacio/Calculator-App',
-    },
+    }, */
     {
       id: 6,
       src: CounterClicks,
